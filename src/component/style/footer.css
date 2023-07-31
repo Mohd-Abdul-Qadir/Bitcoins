@@ -1,0 +1,143 @@
+*
+{
+    margin:0 !important;
+    padding:0 !important;
+   
+}
+body
+{
+    overflow-x:hidden !important
+    ;
+}
+:root
+{
+    --bg-color:#212121;
+    --menu-active:#DFBE89;
+}
+.footer-container
+{
+    padding-top:100px !important;
+    padding-left: 250px !important;
+    padding-right: 250px !important;
+    padding-bottom: 50px !important;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: space-around;
+    width:100% !important;
+}
+.footer-container-one
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width:300px !important;
+}
+.footer-container-one-heading
+{
+    font-family: 'Amatic SC';
+    color: white;
+    font-weight: 700;
+    font-size: 30px;
+    white-space: nowrap;
+}
+.footer-container-one-imagesecond
+{
+    margin-top: 5% !important;
+    width:60%;
+}
+.footer-container-two
+{
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-end;
+    width:300px !important;
+}
+.footer-container-copywrith
+{
+    font-family: 'Amatic SC';
+    color: white;
+    font-weight: 700;
+    white-space: nowrap;
+    font-size: 16px;
+    text-align: center;
+}
+.mail-span
+{
+    font-family: 'Amatic SC';
+    color: white;
+    font-weight: 700;
+    white-space: nowrap;
+    font-size: 14px;
+    text-align: center;
+    text-decoration: underline;
+}
+.forfooter
+{
+    justify-content: flex-end;
+    width:300px !important;
+}
+@media only screen and (max-width:600px)
+{
+    .footer-container
+    {
+        flex-wrap: wrap;
+        padding: 10px !important;
+    }
+    .footer-container-one
+    {
+        align-items: center;
+        margin: 10px !important;
+    }
+    .forfooter
+    {
+        align-items: center;
+        margin: 10px !important;
+    }
+    .footer-container-two
+    {
+        margin: 10px !important;
+    }
+    .resforfoooter
+    {
+        align-items: center;
+    }
+    .extrlogo-img-box 
+    {
+        justify-content:center;
+        margin-left:16px !important;
+
+    }
+}
+@media only screen and (min-width:768px) and (max-width:980px)
+{
+    .footer-container
+    {
+        flex-wrap: wrap;
+        padding: 10px !important;
+    }
+    .footer-container-one
+    {
+        align-items: center;
+        margin: 10px !important;
+    }
+    .forfooter
+    {
+        align-items: center;
+        margin: 10px !important;
+    }
+    .footer-container-two
+    {
+        margin: 10px !important;
+    }
+    .resforfoooter
+    {
+        align-items: center;
+    }
+    .extrlogo-img-box 
+    {
+        justify-content:center;
+        margin-left:16px !important;
+
+    }
+}

@@ -1,0 +1,202 @@
+
+*
+{
+    margin:0 !important;
+    padding:0 !important;
+}
+:root
+{
+    --bg-color:#212121;
+    --menu-active:#DFBE89;
+}
+.first-container
+{
+    margin-top:-120px !important;
+    padding-top:100px !important;
+    background-color: var(--bg-color);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height:90vh;
+    display: flex;
+    justify-content: center;
+    z-index: 1;
+}
+.first-container-box
+{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position-y: -30px;
+    position: relative;
+    top:35px;
+    width:100%;
+    z-index: 1;
+    transition: 0.95s all;
+    /* background-position-x: 50px; */
+    /* animation-name: backgroundani;
+    animation-duration:infinite; */
+}
+/* @keyframes backgroundani {
+    0%{transform:translateX(100%);}
+    /* 50%{transform: translateX(0%);} */
+/* } */ 
+
+.first-container-heading
+{
+    font-family: 'Roboto';
+    font-size: 28px;
+    font-weight: 800;
+    line-height: 38px;
+    letter-spacing: 0.09em;
+    text-align: center;
+    color: white;
+    position: relative;
+    margin-top:10px !important;
+
+}
+.first-container-sub-heading
+{
+    font-family: 'Roboto';
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0.09em;
+    text-align: center;
+    color:#797474;
+    position: relative;
+    top:5px;
+}
+.first-container-span
+{
+    color:#800080;
+}
+.btn-container
+{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top:20px;
+}
+.first-container-btn
+{
+    font-family: 'Roboto';
+    border:none;
+    font-weight:500;
+    font-size: 13px;
+    outline: none;
+    background: #DDB690;
+    padding-top:5px !important;
+    padding-bottom:5px !important;
+    padding-left:20px !important ;
+    padding-right:20px !important ;
+    border-radius: 6px;
+    gap: 10px;
+    transition: all 0.95s linear;
+
+}
+.first-container-btn:hover
+{
+    box-shadow: 0px 2px 5px 0px var(--bg-color);
+    color:white;
+}
+.first-container-image-box
+{
+    display: flex;
+    justify-content: center;
+}
+.first-container-image
+{
+    position: absolute;
+    /* top:133px; */
+    bottom: 0;
+    /* right:22px; */
+    display: flex;
+    width:300px;
+    height:300px;
+   
+    
+}
+.first-container-imagecoin
+{
+    position: absolute;
+    bottom:40px;
+    /* left:880px; */
+    left:calc(100vw - 42vw);
+    width:80px;
+    height:80px;
+}
+@media only screen and (max-width:600px)
+{
+    .first-container
+    {
+        /* display: none; */
+        background-size: contain;
+        background-position: bottom;
+        background-position-y:280px ;
+        background-size:650px;
+        height:68vh;
+        /* background-position-x: ; */
+    }
+    .first-container-box
+    {
+        /* background-size:100px; */
+        background-size:450px 100%;
+        padding: 10px !important;
+        background-repeat: no-repeat;
+        background-position:center;
+        /* background-position-y:45px; */
+        position: relative;
+        top:35px;
+    }
+    .first-container-heading
+    {
+        font-size:14px;
+    }
+    .first-container-sub-heading
+    {
+        font-size: 12px;
+    }
+    .first-container-image
+    {
+        width:200px;
+        height:200px;
+    }
+    .first-container-imagecoin
+    {
+        width:60px;
+        height:60px;
+        left: calc(100vw - 28vw);
+        top:calc(100vh - 65svh);
+    }
+}
+@media only screen and (min-width:768px) and (max-width:980px)
+{
+    .first-container
+    {
+        /* display: none; */
+        background-size: contain;
+        background-position: bottom;
+        background-position-y:280px ;
+        background-size:650px;
+        height:60vh;
+        /* background-position-x: ; */
+    }
+    .first-container-box
+    {
+        /* background-size:100px; */
+        background-size:850px 100%;
+        padding: 10px !important;
+        background-repeat: no-repeat;
+        background-position:center;
+        /* background-position-y:45px; */
+        position: relative;
+        top:35px;
+    }
+    .first-container-imagecoin
+    {
+        width:60px;
+        height:60px;
+        left: calc(100vw - 35vw);
+        top:calc(100vh - 55vh);
+    }
+}
